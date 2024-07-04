@@ -28,8 +28,14 @@ function contaFunction(primeiroNumero, segundoNumero) {
         return primeiroNumero * segundoNumero
     }
     else if (operacao == "divisão") {
-        console.log(`A conta a ser feita é: ${primeiroNumero} / ${segundoNumero}`) 
-        return primeiroNumero / segundoNumero
+        if (primeiroNumero == 0 || segundoNumero == 0) {
+            console.log("Não é possível fazer divisão com zero.")
+            process.exit();
+        }
+        else {
+            console.log(`A conta a ser feita é: ${primeiroNumero} / ${segundoNumero}`) 
+            return primeiroNumero / segundoNumero
+        }
     }
     else if (operacao == "porcentagem") {
         console.log(`A conta a ser feita é: ${primeiroNumero}% de ${segundoNumero}`)

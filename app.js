@@ -7,12 +7,10 @@
 
 const prompt = require('prompt-sync')();
 
-console.log("")
-
 let primeiroNumeroStr = prompt("Informe o primeiro número: ")
-let primeiroNumero = parseInt(primeiroNumeroStr)
+let primeiroNumero = parseFloat(primeiroNumeroStr)
 let segundoNumeroStr = prompt("Informe o segundo número: ")
-let segundoNumero = parseInt(segundoNumeroStr)
+let segundoNumero = parseFloat(segundoNumeroStr)
 
 let operacao = prompt("Escolha uma das seguntes operações: Adição, Subtração, Multiplicação, Divisão ou Porcentagem: ").toLocaleLowerCase()
 

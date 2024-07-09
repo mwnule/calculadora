@@ -12,22 +12,22 @@ let primeiroNumero = parseFloat(primeiroNumeroStr)
 let segundoNumeroStr = prompt("Informe o segundo número: ")
 let segundoNumero = parseFloat(segundoNumeroStr)
 
-let operacao = prompt("Escolha uma das seguntes operações: Adição, Subtração, Multiplicação, Divisão ou Porcentagem: ").toLocaleLowerCase()
+let operacao = prompt("Escolha uma das seguintes operações: Adicao, Subtracao, Multiplicacao, Divisao ou Porcentagem: ").toLocaleLowerCase()
 
 function contaFunction(primeiroNumero, segundoNumero) {
-    if (operacao == "adição") {
+    if (operacao == "adicao") {
         console.log(`A conta a ser feita é: ${primeiroNumero} + ${segundoNumero}`) 
         return primeiroNumero + segundoNumero
     }
-    else if (operacao == "subtração") {
+    else if (operacao == "subtracao") {
         console.log(`A conta a ser feita é: ${primeiroNumero} - ${segundoNumero}`) 
         return primeiroNumero - segundoNumero
     }
-    else if (operacao == "multiplicação") {
+    else if (operacao == "multiplicacao") {
         console.log(`A conta a ser feita é: ${primeiroNumero} * ${segundoNumero}`) 
         return primeiroNumero * segundoNumero
     }
-    else if (operacao == "divisão") {
+    else if (operacao == "divisao") {
         if (primeiroNumero == 0 || segundoNumero == 0) {
             console.log("Não é possível fazer divisão com zero.")
             process.exit();

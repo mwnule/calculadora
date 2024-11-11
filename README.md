@@ -7,4 +7,4 @@ Projeto básico de calculadora interativa utilizando JavaScript.
 - Cada operação é dividida em módulos independentes, o que ajuda na organização do código.
 
 ### Tecnologias utilizadas
-- JavaScript.
+- JavaScript e Node.js.

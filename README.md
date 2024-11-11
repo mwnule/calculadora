@@ -1,2 +1,4 @@
-# calculadora
-Projeto básico de calculadora
+# Calculadora
+Projeto básico de calculadora desenvolvido em JavaScript.
+
+### Funcionalidades
